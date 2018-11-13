@@ -627,7 +627,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="0603" package="0603">
+<device name="-0603-6.3V-(10%)" package="0603">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -648,6 +648,18 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="PROD_ID" value="CAP-10300" constant="no"/>
 <attribute name="VALUE" value="4.7uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-35V-(20%)" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-14106"/>
+<attribute name="VALUE" value="4.7uF"/>
 </technology>
 </technologies>
 </device>
@@ -785,6 +797,18 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CAP-08064"/>
+<attribute name="VALUE" value="1.0uF"/>
+</technology>
+</technologies>
+</device>
+<device name="-0603-16V-10%-X7R" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CAP-13930"/>
 <attribute name="VALUE" value="1.0uF"/>
 </technology>
 </technologies>
@@ -20941,12 +20965,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R1" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="4.7uF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
 <part name="C6" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="4.7uF"/>
+<part name="C8" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -20969,7 +20993,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun-IC-Power" deviceset="AP3012" device="" value="AP3012"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0805-25V-(+80/-20%)" value="1.0uF/25V"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="47KOHM" device="-0603-1/10W-1%" value="47k"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="5.6KOHM" device="-0603-1/10W-1%" value="5.6k"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
@@ -20998,6 +21021,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0805-25V-10%" value="1.0uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -21070,7 +21094,6 @@ Trst = 30ms</text>
 <instance part="GND4" gate="1" x="132.08" y="12.7"/>
 <instance part="U1" gate="G$1" x="38.1" y="152.4"/>
 <instance part="C10" gate="G$1" x="20.32" y="147.32" rot="MR0"/>
-<instance part="C11" gate="G$1" x="73.66" y="147.32"/>
 <instance part="R6" gate="G$1" x="63.5" y="157.48" rot="R90"/>
 <instance part="R7" gate="G$1" x="63.5" y="142.24" rot="R90"/>
 <instance part="D2" gate="G$1" x="55.88" y="165.1" rot="MR180"/>
@@ -21099,6 +21122,7 @@ Trst = 30ms</text>
 <instance part="SUPPLY5" gate="G$1" x="68.58" y="99.06"/>
 <instance part="SUPPLY6" gate="G$1" x="35.56" y="99.06"/>
 <instance part="SUPPLY12" gate="G$1" x="35.56" y="76.2"/>
+<instance part="C7" gate="G$1" x="73.66" y="147.32"/>
 </instances>
 <busses>
 </busses>
@@ -21229,9 +21253,9 @@ Trst = 30ms</text>
 <wire x1="63.5" y1="134.62" x2="63.5" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="C11" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="144.78" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
@@ -21418,11 +21442,11 @@ Trst = 30ms</text>
 <wire x1="58.42" y1="165.1" x2="63.5" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="165.1" x2="63.5" y2="162.56" width="0.1524" layer="91"/>
 <junction x="63.5" y="165.1"/>
-<pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="63.5" y1="165.1" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="165.1" x2="73.66" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="SUPPLY11" gate="G$1" pin="12V"/>
 <wire x1="73.66" y1="165.1" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="152.4" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
 <junction x="73.66" y="165.1"/>
 </segment>
 <segment>
