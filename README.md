@@ -16,14 +16,14 @@ Repository Contents
 
 Documentation
 --------------
-* **[Library](https://github.com/sparkfun/SparkFun_WiseChip_HUD_Library)** - Arduino library.
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-transparent-oled-hud-hookup-guide)** - Basic hookup guide.
+* **[Library](https://github.com/sparkfun/SparkFun_WiseChip_HUD_Library)** - Arduino library
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-transparent-oled-hud-hookup-guide)** - Basic hookup guide
 
 Product Versions
 ----------------
 
-* **[LCD-15079](https://www.sparkfun.com/products/15079)** -SparkFun Red Version
-* **[SPX-14691](https://www.sparkfun.com/products/14691)** -SparkX Version
+* **[LCD-15079](https://www.sparkfun.com/products/15079)** - SparkFun Red Version
+* **[SPX-14691](https://www.sparkfun.com/products/14691)** - SparkX Version
 
 License Information
 -------------------
