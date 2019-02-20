@@ -1,8 +1,10 @@
-SparkFun Qwiic Transparent OLED HUD Hookup Guide
+SparkFun Qwiic Transparent OLED HUD
 ========================================
 
 
 [![Qwiic WiseChip Transparent OLED HUD](https://cdn.sparkfun.com//assets/parts/1/3/4/2/7/15079-SparkFun_Transparent_OLED_Breakout__Qwiic_-01.jpg)](https://www.sparkfun.com/products/14691)
+
+[*SparkFun Qwiic Transparent OLED HUD Hookup Guide (LCD-15079)*](https://www.sparkfun.com/products/14691)
 
 Qwiic Breakout for the WiseChip US-0011GMIAG01 OLED HUD.
 
