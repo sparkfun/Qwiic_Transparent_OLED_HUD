@@ -6,7 +6,7 @@ SparkFun Qwiic Transparent OLED HUD
 
 [*SparkFun Qwiic Transparent OLED HUD Hookup Guide (LCD-15079)*](https://www.sparkfun.com/products/14691)
 
-Qwiic Breakout for the WiseChip US-0011GMIAG01 OLED HUD.
+Qwiic Breakout for the WiseChip US-0011GMIAG01 OLED HUD. Clear screens are no longer a thing of the Sci-Fi world! The Qwiic Transparent OLED HUD is SparkFun's answer to all of your futuristic transparent HUD needs. Designed for use in vehicle heads-up displays, this OLED panel is brilliant in the dark but easily visible in daylight. The display is "area colored" meaning that while no one segment can change colors, there are different colored segments on the display.
 
 Repository Contents
 -------------------
